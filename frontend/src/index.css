@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+/* Design tokens — lấy từ Figma "P-DTwin Website UI/UX" (Color system + Typo system) */
+@theme {
+  --font-sans: 'Be Vietnam Pro', system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  --color-brand-100: #F5E1E4;
+  --color-brand-300: #E17C8D;
+  --color-brand-500: #B91C1C;
+  --color-brand-700: #900404;
+  --color-brand-900: #921818;
+
+  --color-info-100: #D8E8F0;
+  --color-info-500: #005394;
+  --color-success-100: #E6F5E1;
+  --color-success-500: #29A400;
+
+  --color-ink: #191C1E;      /* Grey 900 — text chính */
+  --color-muted: #576773;    /* Grey 700 — text phụ */
+  --color-grey-500: #737373;
+  --color-line: #E4E6E7;     /* Grey 70 — viền */
+  --color-surface: #F2F2F3;  /* Grey 50 — nền trang */
+  --color-subtle: #F9FAFB;   /* Card BG 2 — nền input, header bảng */
+
+  --shadow-card: 0 1px 20px 0 rgba(0, 0, 0, 0.08);
+  --shadow-pop: 0 1px 30px 0 rgba(0, 0, 0, 0.10);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  background-color: var(--color-surface);
+  color: var(--color-ink);
+  -webkit-font-smoothing: antialiased;
+}

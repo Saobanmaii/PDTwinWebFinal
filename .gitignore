@@ -1,0 +1,48 @@
+# ── Bí mật: KHÔNG BAO GIỜ commit ──
+backend/src/main/resources/application-secret.properties
+*.env
+.env*
+
+# ── Build output ──
+target/
+node_modules/
+frontend/dist/
+# Bản build frontend được deploy.ps1 copy vào đây khi đóng gói JAR
+backend/src/main/resources/static/
+
+# ── Dữ liệu chạy / file lớn có sẵn trên server ──
+backend/uploads/
+uploads/
+unity-builds/
+*.log
+
+# ── Script / ghi chú dùng riêng trên máy dev ──
+start.bat
+start-server-8082.bat
+start-server.sh
+CLAUDE.md
+.claude/
+docs/PLAN.md
+docs/AUDIT_CHUC_NANG_LMS.md
+frontend/README.md
+
+# ── IDE / OS ──
+.idea/
+.vscode/
+*.iml
+.project
+.classpath
+.settings/
+.DS_Store
+Thumbs.db
+
+# ── Maven ──
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
