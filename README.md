@@ -5,7 +5,7 @@ Giảng viên quản lý lớp, phân lịch bài thực hành và chấm điể
 
 ## 🔗 Demo
 
-**Live:** _(sắp cập nhật)_
+**Live:** http://103.238.69.131:8080
 
 | Vai trò | Tài khoản | Mật khẩu | Xem được gì |
 |---|---|---|---|
