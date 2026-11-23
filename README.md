@@ -9,8 +9,8 @@ Giảng viên quản lý lớp, phân lịch bài thực hành và chấm điể
 
 | Vai trò | Tài khoản | Mật khẩu | Xem được gì |
 |---|---|---|---|
-| Admin | `admin` | `admin123` | Quản lý người dùng, lớp học, bài thực hành, báo cáo |
-| Giảng viên | `gv001` | `gv001` | Lớp phụ trách, phân lịch, chốt điểm + nhận xét, báo cáo Excel |
+| Admin | `admin` | `` | Quản lý người dùng, lớp học, bài thực hành, báo cáo |
+| Giảng viên | `gv001` | `gv0001` | Lớp phụ trách, phân lịch, chốt điểm + nhận xét, báo cáo Excel |
 | Sinh viên | `SV001` | `SV001` | Lớp của tôi, làm bài mô phỏng, xem điểm và nhận xét |
 
 > Đây là tài khoản demo dùng chung — vui lòng không đổi mật khẩu hay khóa tài khoản.
